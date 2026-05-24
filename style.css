@@ -1,0 +1,157 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+body{
+    background:black
+    
+    
+}
+nav{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 50px;
+    margin-left: 170px;
+    
+
+}
+a{
+    text-decoration:none;
+    color: aliceblue;
+    font-family:monospace;
+    text-transform: uppercase;
+}
+a:hover{
+    color: aqua;
+}
+
+
+.btn{
+color: rgb(27, 13, 13);
+font-size: medium;
+border: none;
+background-color:aquamarine;
+padding: 8px 20px;
+margin-left :auto;
+height: 30px;
+border-radius: 5px;
+margin-top: 5px;
+cursor: pointer;
+font-family: monospace;
+transition: 0.4s;
+}
+.btn:hover{
+    transform: scale(1.02);
+}
+
+.logo{
+    color:white;
+    width: 40px;
+    margin-left:-40px;
+    margin-top: 20px;
+    border-radius: 100px;
+    box-shadow:0 0 15px rgba(163, 76, 200, 0.4);
+
+}
+
+.hero{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+padding: 50px;
+
+
+
+}
+.right{
+    color: aliceblue;
+    font-family: monospace;
+    margin-bottom: 20px;
+    
+}
+.right h1{
+    margin-bottom: 20px;
+    
+}
+.right h2{
+    margin-bottom: 10px;
+}
+.right p{
+ line-height: 25px;
+ max-width: 550px;
+
+}
+.name{
+    color: aqua;
+    border-radius: 10px;
+    border-color: azure;
+    letter-spacing: 3px;
+}
+span{
+    color: aqua;
+}
+.dev{
+    color: aqua;
+    letter-spacing: 4px;
+     text-shadow:0 0 10px aqua;
+     font-weight: bold;
+     
+}
+.left img{
+    width:250px;
+    max-width:100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    filter:brightness(70%);
+    
+    box-shadow:0 0 20px rgba(0,255,255,0.4);
+    transition:0.4s;
+}
+.left img:hover{
+   transform:scale(1.03);
+}
+
+
+footer{
+    color: aliceblue;
+    padding:40px;
+    text-align: center;
+    margin-top: 80px;
+}
+.icon{
+    
+    width: 25px;
+    
+}
+.socials-icon{
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    height: auto;
+}
+footer p{
+    margin-top: 30px;
+    color: #cfcfcf;
+    font-size: 15px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+.chai{
+    width: 20px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+footer span{
+    color: deeppink;
+}
